@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Example</title>
+    <style>
+        #clickMeButtonGreen {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button id="clickMeButton">Click Me</button>
+    <button id="clickMeButtonGreen">Click Me Too</button>
+
+    <script>
+        document.getElementById('clickMeButton').addEventListener('click', function() { 
+            alert('Button clicked!');                                                   
+        });
+
+        document.getElementById('clickMeButtonGreen').addEventListener('click', function() { 
+            alert('Button clicked!');                                                   
+        });
+    </script>
+</body>
+</html>
